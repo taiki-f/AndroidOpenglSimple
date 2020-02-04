@@ -6,8 +6,8 @@
 
 
 ## 外部ライブラリ
-- libpng
+- [libpng for android](https://github.com/julienr/libpng-android)
 
 
 ## リソース
-- いらすとや 様
+- [いらすとや 様](https://www.irasutoya.com/)
