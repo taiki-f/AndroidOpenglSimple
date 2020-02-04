@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\App.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AppDef.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Common.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\ShaderBase.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Sprite.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Types.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\ShaderBlend.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\FrameBuffer.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Texture.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d8b60267-2943-43f8-b1c3-63b1e3f7a2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{63a04c22-21d4-436c-b8b0-3b8d8df0d226}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\App.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\NativeLibrary.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Sprite.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\ShaderBase.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\ShaderBlend.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\FrameBuffer.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Texture.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
