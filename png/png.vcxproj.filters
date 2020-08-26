@@ -1,6 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{709c17b7-0651-44d0-9204-9f164ccd9576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\arm">
+      <UniqueIdentifier>{5afcc042-cfec-4ca6-a0e7-4624e300459d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\config.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\png.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pngconf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pngdebug.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pnginfo.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pnglibconf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pngprefix.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pngpriv.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\pngstruct.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Source\png.c">
       <Filter>Source</Filter>
     </ClCompile>
@@ -55,46 +92,6 @@
     <ClCompile Include="Source\arm\filter_neon_intrinsics.c">
       <Filter>Source\arm</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Source\config.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\png.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pngconf.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pngdebug.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pnginfo.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pnglibconf.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pngprefix.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pngpriv.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\pngstruct.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source">
-      <UniqueIdentifier>{709c17b7-0651-44d0-9204-9f164ccd9576}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\arm">
-      <UniqueIdentifier>{0904a586-3b31-47a0-bd60-fc3fdd9b4a2f}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\arm\filter_neon.S">

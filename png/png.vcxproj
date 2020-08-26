@@ -34,6 +34,40 @@
       <Platform>x86</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\config.h" />
+    <ClInclude Include="Source\png.h" />
+    <ClInclude Include="Source\pngconf.h" />
+    <ClInclude Include="Source\pngdebug.h" />
+    <ClInclude Include="Source\pnginfo.h" />
+    <ClInclude Include="Source\pnglibconf.h" />
+    <ClInclude Include="Source\pngprefix.h" />
+    <ClInclude Include="Source\pngpriv.h" />
+    <ClInclude Include="Source\pngstruct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\arm\arm_init.c" />
+    <ClCompile Include="Source\arm\filter_neon_intrinsics.c" />
+    <ClCompile Include="Source\png.c" />
+    <ClCompile Include="Source\pngerror.c" />
+    <ClCompile Include="Source\pngget.c" />
+    <ClCompile Include="Source\pngmem.c" />
+    <ClCompile Include="Source\pngpread.c" />
+    <ClCompile Include="Source\pngread.c" />
+    <ClCompile Include="Source\pngrio.c" />
+    <ClCompile Include="Source\pngrtran.c" />
+    <ClCompile Include="Source\pngrutil.c" />
+    <ClCompile Include="Source\pngset.c" />
+    <ClCompile Include="Source\pngtest.c" />
+    <ClCompile Include="Source\pngtrans.c" />
+    <ClCompile Include="Source\pngwio.c" />
+    <ClCompile Include="Source\pngwrite.c" />
+    <ClCompile Include="Source\pngwtran.c" />
+    <ClCompile Include="Source\pngwutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\arm\filter_neon.S" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0db50718-bb3a-48f4-ad7f-e65134739e15}</ProjectGuid>
     <Keyword>Android</Keyword>
@@ -201,41 +235,6 @@
       <CppLanguageStandard>Default</CppLanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Source\arm\arm_init.c" />
-    <ClCompile Include="Source\arm\filter_neon_intrinsics.c" />
-    <ClCompile Include="Source\png.c" />
-    <ClCompile Include="Source\pngerror.c" />
-    <ClCompile Include="Source\pngget.c" />
-    <ClCompile Include="Source\pngmem.c" />
-    <ClCompile Include="Source\pngpread.c" />
-    <ClCompile Include="Source\pngread.c" />
-    <ClCompile Include="Source\pngrio.c" />
-    <ClCompile Include="Source\pngrtran.c" />
-    <ClCompile Include="Source\pngrutil.c" />
-    <ClCompile Include="Source\pngset.c" />
-    <ClCompile Include="Source\pngtest.c" />
-    <ClCompile Include="Source\pngtrans.c" />
-    <ClCompile Include="Source\pngwio.c" />
-    <ClCompile Include="Source\pngwrite.c" />
-    <ClCompile Include="Source\pngwtran.c" />
-    <ClCompile Include="Source\pngwutil.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="Source\config.h" />
-    <ClInclude Include="Source\png.h" />
-    <ClInclude Include="Source\pngconf.h" />
-    <ClInclude Include="Source\pngdebug.h" />
-    <ClInclude Include="Source\pnginfo.h" />
-    <ClInclude Include="Source\pnglibconf.h" />
-    <ClInclude Include="Source\pngprefix.h" />
-    <ClInclude Include="Source\pngpriv.h" />
-    <ClInclude Include="Source\pngstruct.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Source\arm\filter_neon.S" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
