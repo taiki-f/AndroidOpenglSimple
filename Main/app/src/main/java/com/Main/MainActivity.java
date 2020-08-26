@@ -48,6 +48,7 @@ public class MainActivity extends Activity
         glSurfaceView.setEGLConfigChooser(new MainChooser());
         glSurfaceView.setRenderer(glRenderer);
         glSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+        //glSurfaceView.setPreserveEGLContextOnPause(true);           // OnPause時にEGL資源を保持したままにしておく
 
         // ビューの設定
         setContentView(glSurfaceView);
