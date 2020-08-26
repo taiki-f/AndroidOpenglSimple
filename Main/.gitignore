@@ -6,3 +6,4 @@ jniLibs/
 # Files
 build.gradle
 settings.gradle
+app/src/main/AndroidManifest.xml
