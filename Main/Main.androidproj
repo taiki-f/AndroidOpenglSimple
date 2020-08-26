@@ -81,7 +81,7 @@
   <ItemDefinitionGroup>
     <GradlePackage>
       <ProjectDirectory>$(ProjectDir)app</ProjectDirectory>
-      <ApplicationName>jp.dorasu.apps.testapp</ApplicationName>
+      <ApplicationName>jp.taiki.apps.testapp</ApplicationName>
       <GradlePlugin>gradle-experimental:0.7.3</GradlePlugin>
       <GradleVersion>2.14.1</GradleVersion>
     </GradlePackage>
