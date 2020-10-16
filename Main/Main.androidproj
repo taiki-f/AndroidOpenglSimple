@@ -89,36 +89,36 @@
   <ImportGroup Label="ExtensionSettings" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(ProjectDir)_$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)_$(Platform)\_$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemGroup>
     <GradleTemplate Include="app\build.gradle.template" />

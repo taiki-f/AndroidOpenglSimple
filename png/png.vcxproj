@@ -132,36 +132,36 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <OutDir>$(SolutionDir)_$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>_$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_$(Platform)\_$(Configuration)\</OutDir>
+    <IntDir>_$(Platform)\_$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
