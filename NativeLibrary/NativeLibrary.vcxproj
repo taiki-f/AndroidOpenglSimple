@@ -132,7 +132,7 @@
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -152,7 +152,7 @@
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -164,7 +164,7 @@
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -184,7 +184,7 @@
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
     </ClCompile>
     <Link>
@@ -195,7 +195,7 @@
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>_DEBUG;ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -220,7 +220,7 @@ if exist %dir% (
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>NDEBUG;ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -238,7 +238,7 @@ if exist %dir% (
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>_DEBUG;ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -263,7 +263,7 @@ if exist %dir% (
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)png\Source;$(ProjectDir)Src;$(ProjectDir)Src\System;$(ProjectDir)Src\System\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CppLanguageStandard>c++11</CppLanguageStandard>
       <PreprocessorDefinitions>NDEBUG;ANDROID;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -279,23 +279,23 @@ if exist %dir% (
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Src\App.cpp" />
-    <ClCompile Include="Src\System\FrameBuffer.cpp" />
-    <ClCompile Include="Src\System\NativeLibrary.cpp" />
-    <ClCompile Include="Src\System\ShaderBase.cpp" />
-    <ClCompile Include="Src\System\ShaderBlend.cpp" />
-    <ClCompile Include="Src\System\Sprite.cpp" />
-    <ClCompile Include="Src\System\Texture.cpp" />
+    <ClCompile Include="Src\System\Graphics\FrameBuffer.cpp" />
+    <ClCompile Include="Src\System\Graphics\NativeLibrary.cpp" />
+    <ClCompile Include="Src\System\Graphics\ShaderBase.cpp" />
+    <ClCompile Include="Src\System\Graphics\ShaderBlend.cpp" />
+    <ClCompile Include="Src\System\Graphics\Sprite.cpp" />
+    <ClCompile Include="Src\System\Graphics\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\App.hpp" />
     <ClInclude Include="Src\AppDef.h" />
     <ClInclude Include="Src\System\Common.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Src\System\FrameBuffer.hpp" />
-    <ClInclude Include="Src\System\ShaderBase.hpp" />
-    <ClInclude Include="Src\System\ShaderBlend.hpp" />
-    <ClInclude Include="Src\System\Sprite.hpp" />
-    <ClInclude Include="Src\System\Texture.hpp" />
+    <ClInclude Include="Src\System\Graphics\FrameBuffer.hpp" />
+    <ClInclude Include="Src\System\Graphics\ShaderBase.hpp" />
+    <ClInclude Include="Src\System\Graphics\ShaderBlend.hpp" />
+    <ClInclude Include="Src\System\Graphics\Sprite.hpp" />
+    <ClInclude Include="Src\System\Graphics\Texture.hpp" />
     <ClInclude Include="Src\System\Types.h" />
   </ItemGroup>
   <ItemGroup>
