@@ -285,6 +285,7 @@ if exist %dir% (
     <ClCompile Include="Src\System\Graphics\ShaderBlend.cpp" />
     <ClCompile Include="Src\System\Graphics\Sprite.cpp" />
     <ClCompile Include="Src\System\Graphics\Texture.cpp" />
+    <ClCompile Include="Src\System\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\App.hpp" />
@@ -296,6 +297,7 @@ if exist %dir% (
     <ClInclude Include="Src\System\Graphics\ShaderBlend.hpp" />
     <ClInclude Include="Src\System\Graphics\Sprite.hpp" />
     <ClInclude Include="Src\System\Graphics\Texture.hpp" />
+    <ClInclude Include="Src\System\Timer.hpp" />
     <ClInclude Include="Src\System\Types.h" />
   </ItemGroup>
   <ItemGroup>
