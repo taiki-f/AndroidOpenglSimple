@@ -5,22 +5,20 @@
 
 namespace drs { namespace time {
 
+    class TimerIMPL;
+
     /// <summary>
     /// タイマー
     /// </summary>
     class Timer
     {
-        // PIMPLイデオム
-    protected:
-        struct Impl;
-
     public:
         /// <summary>
         /// コンストラクタ
         /// </summary>
         Timer();
-        Timer(const Timer& t);
-        Timer(Timer&& t);
+        Timer(const Timer& t) = delete;
+        Timer(Timer&& t) = delete;
 
         /// <summary>
         /// デストラクタ
@@ -30,8 +28,8 @@ namespace drs { namespace time {
         /// <summary>
         /// 代入演算子のオーバーライド
         /// </summary>
-        Timer& operator=(const Timer& t);
-        Timer& operator=(Timer&& t);
+        Timer& operator=(const Timer& t) = delete;
+        Timer& operator=(Timer&& t) = delete;
 
         /// <summary>
         /// ミリ秒を取得
@@ -49,6 +47,6 @@ namespace drs { namespace time {
         u64 GetNanoSec();
 
     protected:
-        Impl* impl;
+        TimerIMPL* impl;
     };
 } } // namespace

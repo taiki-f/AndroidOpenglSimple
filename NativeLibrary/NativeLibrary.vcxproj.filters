@@ -31,8 +31,14 @@
     <ClInclude Include="Src\System\Graphics\Texture.hpp">
       <Filter>Source\System\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Src\System\Timer.hpp">
-      <Filter>Source\System</Filter>
+    <ClInclude Include="Src\System\Time\Timer.hpp">
+      <Filter>Source\System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Time\TimerImpl.hpp">
+      <Filter>Source\System\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Time\FPSTimer.hpp">
+      <Filter>Source\System\Time</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +50,9 @@
     </Filter>
     <Filter Include="Source\System\Graphics">
       <UniqueIdentifier>{8b46273a-3564-42ff-9bbd-54d33363f443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Time">
+      <UniqueIdentifier>{d00f7cea-8928-4b1e-8277-c7aa8f8cc617}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -68,8 +77,11 @@
     <ClCompile Include="Src\System\Graphics\Texture.cpp">
       <Filter>Source\System\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="Src\System\Timer.cpp">
-      <Filter>Source\System</Filter>
+    <ClCompile Include="Src\System\Time\Timer.cpp">
+      <Filter>Source\System\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Time\FPSTimer.cpp">
+      <Filter>Source\System\Time</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
