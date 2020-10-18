@@ -6,10 +6,14 @@
 namespace drs { namespace time {
 
     /// <summary>
-    /// タイマークラス
+    /// タイマー
     /// </summary>
     class Timer
     {
+        // PIMPLイデオム
+    protected:
+        struct Impl;
+
     public:
         /// <summary>
         /// コンストラクタ
@@ -44,13 +48,7 @@ namespace drs { namespace time {
         /// </summary>
         u64 GetNanoSec();
 
-        // PIMPLイデオム
-    private:
-        struct Impl;
-        Impl* impl;
     protected:
-        Impl* IMPL() {
-            return impl;
-        }
+        Impl* impl;
     };
 } } // namespace
