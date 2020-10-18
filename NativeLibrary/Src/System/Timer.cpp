@@ -89,7 +89,7 @@ namespace drs { namespace time {
     u64 Timer::GetMilliSec()
     {
         impl->UpdateTime();
-        return (u32)((impl->ts.tv_sec * 1000) + (impl->ts.tv_nsec / 1000000));
+        return (u64)((impl->ts.tv_sec * 1000) + (impl->ts.tv_nsec / 1000000));
     }
 
     /// <summary>
@@ -98,7 +98,7 @@ namespace drs { namespace time {
     u64 Timer::GetMicroSec()
     {
         impl->UpdateTime();
-        return (u32)((impl->ts.tv_sec * 1000000) + (impl->ts.tv_nsec / 1000));
+        return (u64)((impl->ts.tv_sec * 1000000) + (impl->ts.tv_nsec / 1000));
     }
 
     /// <summary>
@@ -107,7 +107,7 @@ namespace drs { namespace time {
     u64 Timer::GetNanoSec()
     {
         impl->UpdateTime();
-        return (u32)((impl->ts.tv_sec * 1000000000) + impl->ts.tv_nsec);
+        return (u64)((impl->ts.tv_sec * 1000000000) + impl->ts.tv_nsec);
     }
 
 } } // namespace
